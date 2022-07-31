@@ -30,7 +30,7 @@ const NavItem = styled.ul`
 const Item = styled.li<{ space?: boolean }>`
   font-size: 1.2rem;
   text-transform: capitalize;
-  color: #000;
+  color: #101010;
 
   & a {
     font-size: inherit;
@@ -58,7 +58,7 @@ const HeaderWrapper = styled.header`
 `
 const Name = styled.h1`
   font-family: 'DM Sans', sans-serif;
-  color: #010101;
+  color: #101010;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 700;
