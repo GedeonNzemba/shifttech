@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript-webpack-starter",
+  "name": "react-typescript-babel-project",
   "version": "1.0.0",
-  "description": "A starter template for React with Typescript using Webpack 5",
+  "description": "ShiftTech job project",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
@@ -9,14 +9,7 @@
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "React",
-    "TypeScript",
-    "Webpack 5",
-    "Starter Template",
-    "Boilerplate"
-  ],
-  "author": "Vishwas",
+  "author": "Gedeon",
   "license": "MIT",
   "dependencies": {
     "@types/styled-components": "^5.1.25",
