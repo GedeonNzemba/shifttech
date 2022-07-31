@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 0.4rem;
+}
+
+.add-card-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    /* Firefox */
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%);
+    /* Opera */
+    transform: translate(-50%, -50%);
+}

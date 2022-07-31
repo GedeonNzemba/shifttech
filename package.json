@@ -44,6 +44,8 @@
     "husky": "4",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
+    "react-credit-cards": "^0.8.3",
+    "react-icons": "^4.4.0",
     "react-refresh": "^0.9.0",
     "style-loader": "^2.0.0",
     "typescript": "^4.1.5",

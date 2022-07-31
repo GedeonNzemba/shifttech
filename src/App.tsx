@@ -1,12 +1,15 @@
 import Header from './components/header/Header'
-import { Counter } from './Counter'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  background-color: #ffffff;
+  padding: 1.6rem;
+`
 
 export const App = () => {
   return (
-    <>
+    <Container>
       <Header />
-      <h1>Rect TypeScript Starter gede</h1>
-      <Counter />
-    </>
+    </Container>
   )
 }
