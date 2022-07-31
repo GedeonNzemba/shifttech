@@ -7,15 +7,44 @@ const Container = styled.div`
   margin: 1.6rem 0;
 `
 
-const CreditCard = () => {
+interface IProps {
+  list?: boolean
+  name?: string
+  number?: number
+  expiryMonth?: number
+  expiryYear?: number
+  cvc?: number
+}
+
+const CreditCard = ({
+  list,
+  name,
+  number,
+  expiryMonth,
+  expiryYear,
+  cvc,
+}: IProps) => {
   return (
     <Container>
-      <Card
-        name="John Smith"
-        number="5555 4444 3333 1111"
-        expiry="10/20"
-        cvc="737"
-      />
+      {list && (
+        <Card
+          name={name}
+          number={number}
+          expiry={`${expiryMonth}/${expiryYear}`}
+          cvc={cvc}
+        />
+      )}
+
+      {!list && (
+        <Card
+          name="Enter Name"
+          number="**** **** **** 7048"
+          expiry="10/20"
+          cvc="737"
+          preview={true}
+          issuer="visa"
+        />
+      )}
     </Container>
   )
 }
