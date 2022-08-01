@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import CreditCard from '../card/CreditCard'
 
 const Container = styled.div`
+  position: relative;
   display: block;
 `
 const ListHeading = styled.h3`
